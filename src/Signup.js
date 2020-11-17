@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./navbar/Navbar";
 import FormField from "./formfield/FormField";
-import CoolButton from "./formfield/CoolButton";
+import CoolButton from "./coolbutton/CoolButton";
 
-const Signup = (props) => {
+const Signup = () => {
   return (
     <div>
       <Navbar />

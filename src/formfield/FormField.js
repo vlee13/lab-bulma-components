@@ -1,7 +1,8 @@
 import React from "react";
-import CoolButton from "./CoolButton"; 
+// import CoolButton from "./CoolButton";
 
 const FormField = (props) => {
+  console.log(props);
   return (
     <div className="field">
       <label className="label" onClick={() => alertLabel(props.label)}>
